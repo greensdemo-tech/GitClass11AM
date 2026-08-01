@@ -8,6 +8,15 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Sample {
+	
+	private void tc3() {
+		System.out.println("tc3");
+
+	}
+	private void tc4() {
+		System.out.println("tc4");
+
+	}
 	public static void main(String[] args) {
 		WebDriver driver=new ChromeDriver();
 		//WebDriver driver=new FirefoxDriver();
