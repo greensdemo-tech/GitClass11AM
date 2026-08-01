@@ -9,6 +9,14 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Sample {
 	
+	private void tc1() {
+		System.out.println("tc1");
+
+	}
+	private void tc2() {
+		System.out.println("tc2");
+
+	}
 	private void tc3() {
 		System.out.println("tc3");
 
@@ -17,6 +25,7 @@ public class Sample {
 		System.out.println("tc4");
 
 	}
+
 	public static void main(String[] args) {
 		WebDriver driver=new ChromeDriver();
 		//WebDriver driver=new FirefoxDriver();
